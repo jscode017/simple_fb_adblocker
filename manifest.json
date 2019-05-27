@@ -1,0 +1,14 @@
+{
+  "name": "dyi-facebook-adblocker",
+  "version": "1.0",
+  "description": "A simple facebook adblocker",
+  "permissions": [ "*://*.facebook.com/*"],
+  "content_scripts": [
+  {
+    "js": ["popup.js"],
+    "matches":["*://*.facebook.com/*"]
+  }
+  ],
+
+  "manifest_version": 2
+}
